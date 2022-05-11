@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>Sticky Footer Navbar Template · Bootstrap v5.1</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet" />
+  </head>
+
+  <body class="d-flex flex-column h-100">
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">양서바다</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >홈페이지 소개</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >공지사항</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >판매물품</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="bd-example">
+        <svg
+          class="bd-placeholder-img bd-placeholder-img-lg img-fluid"
+          width="100%"
+          height="250"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Responsive image"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96" />
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">사진</text>
+        </svg>
+      </div>
+      <div class="row mb-2">
+        <h1>부원 소개</h1>
+        <br />
+      </div>
+      <section id="components">
+        <div>
+          <div class="bd-example">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <svg
+                        class="bd-placeholder-img"
+                        width="100%"
+                        height="250"
+                        xmlns="http://www.w3.org/2000/svg"
+                        role="img"
+                        aria-label="Placeholder: Image"
+                        preserveAspectRatio="xMidYMid slice"
+                        focusable="false"
+                      >
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#868e96" />
+                        <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                          Image
+                        </text>
+                      </svg>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">박찬미</h5>
+                        <p class="card-text">
+                          학번 담당 이메일 인스타아이디 자기소개 두세줄
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <svg
+                        class="bd-placeholder-img"
+                        width="100%"
+                        height="250"
+                        xmlns="http://www.w3.org/2000/svg"
+                        role="img"
+                        aria-label="Placeholder: Image"
+                        preserveAspectRatio="xMidYMid slice"
+                        focusable="false"
+                      >
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#868e96" />
+                        <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                          Image
+                        </text>
+                      </svg>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">박찬미</h5>
+                        <p class="card-text">
+                          학번 담당 이메일 인스타아이디 자기소개 두세줄
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <aside
+      class="bd-aside sticky-xl-top text-muted align-self-start mb-3 mb-xl-5 px-2"
+    >
+      <h2 class="h6 pt-4 pb-3 mb-4 border-bottom">홈페이지 소개</h2>
+      <nav class="small" id="toc">
+        <ul class="list-unstyled">
+          <li class="my-2">
+            <button
+              class="btn d-inline-flex align-items-center collapsed"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              data-bs-target="#contents-collapse"
+              aria-controls="contents-collapse"
+            >
+              홈페이지 소개
+            </button>
+            <ul class="list-unstyled ps-3 collapse" id="contents-collapse">
+              <li>
+                <a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#typography"
+                  >양서바다란</a
+                >
+              </li>
+              <li>
+                <a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#images"
+                  >자율동아리 소개</a
+                >
+              </li>
+              <li>
+                <a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#tables"
+                  >자율동아리 부원 소개</a
+                >
+              </li>
+              <li>
+                <a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#figures"
+                  >...</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="my-2">
+            <button
+              class="btn d-inline-flex align-items-center collapsed"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              data-bs-target="#forms-collapse"
+              aria-controls="forms-collapse"
+            >
+              공지사항
+            </button>
+            <ul class="list-unstyled ps-3 collapse" id="forms-collapse">
+              <li>
+                <a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#overview"
+                  >.</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="my-2">
+            <button
+              class="btn d-inline-flex align-items-center collapsed"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              data-bs-target="#components-collapse"
+              aria-controls="components-collapse"
+            >
+              판매물품
+            </button>
+            <ul class="list-unstyled ps-3 collapse" id="components-collapse">
+              <li>
+                <a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#accordion"
+                  >.
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- Begin page content -->
+
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted"
+          >주소 : 경기도 양평군 양서면 상촌길 31-12 양서고등학교 <br />
+          문의 연락 : 010-4519-7912
+        </span>
+      </div>
+    </footer>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
