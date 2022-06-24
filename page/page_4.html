@@ -16,15 +16,13 @@
       href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/"
     />
 
-
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
 
     <style>
-        #container {
-            display: flex;
-           
-        }
+      #container {
+        display: flex;
+      }
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -38,12 +36,14 @@
           font-size: 3.5rem;
         }
       }
-     
     </style>
 
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
   </head>
 
   <body class="d-flex flex-column h-100">
@@ -85,28 +85,75 @@
         </div>
       </nav>
     </header>
-    <aside class="bd-aside sticky-xl-top text-muted align-self-start mb-3 mb-xl-5 px-2">
-        <h2 class="h6 pt-4 pb-3 mb-4 border-bottom"></h2>
-        <nav class="small" id="toc">
-          <ul class="list-unstyled">
-            <li class="my-2">
-              <button class="btn d-inline-flex align-items-center" data-bs-toggle="collapse" aria-expanded="true" data-bs-target="#홈페이지 소개-collapse" aria-controls="홈페이지 소개-collapse">홈페이지 소개</button>
-              <ul class="list-unstyled ps-3 collapse show" id="홈페이지 소개-collapse" style="">
-                <li><a class="d-inline-flex align-items-center rounded" href="#양서바다란" >양서바다란</a></li>
-                <li><a class="d-inline-flex align-items-center rounded" href="#자율동아리 소개">자율동아리 소개</a></li>
-                <li><a class="d-inline-flex align-items-center rounded" href="#자율동아리 부원 소개">자율동아리 부원소개</a></li>
-                
-              </ul>
-            </li>
-            <li class="my-2">
-              <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#공지사항-collapse" aria-controls="공지사항-collapse">공지사항</button>
-            </li>
-            <li class="my-2">
-              <button class="btn d-inline-flex align-items-center" data-bs-toggle="collapse" aria-expanded="true" data-bs-target="#판매물품-collapse" aria-controls="판매물품-collapse">판매물품</button>
-            </li>
-          </ul>
-        </nav>
-      </aside>
+    <aside
+      class="bd-aside sticky-xl-top text-muted align-self-start mb-3 mb-xl-5 px-2"
+    >
+      <h2 class="h6 pt-4 pb-3 mb-4 border-bottom"></h2>
+      <nav class="small" id="toc">
+        <ul class="list-unstyled">
+          <li class="my-2">
+            <button
+              class="btn d-inline-flex align-items-center"
+              data-bs-toggle="collapse"
+              aria-expanded="true"
+              data-bs-target="#홈페이지 소개-collapse"
+              aria-controls="홈페이지 소개-collapse"
+            >
+              홈페이지 소개
+            </button>
+            <ul
+              class="list-unstyled ps-3 collapse show"
+              id="홈페이지 소개-collapse"
+              style=""
+            >
+              <li>
+                <a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#양서바다란"
+                  >양서바다란</a
+                >
+              </li>
+              <li>
+                <a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#자율동아리 소개"
+                  >자율동아리 소개</a
+                >
+              </li>
+              <li>
+                <a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#자율동아리 부원 소개"
+                  >자율동아리 부원소개</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="my-2">
+            <button
+              class="btn d-inline-flex align-items-center collapsed"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              data-bs-target="#공지사항-collapse"
+              aria-controls="공지사항-collapse"
+            >
+              공지사항
+            </button>
+          </li>
+          <li class="my-2">
+            <button
+              class="btn d-inline-flex align-items-center"
+              data-bs-toggle="collapse"
+              aria-expanded="true"
+              data-bs-target="#판매물품-collapse"
+              aria-controls="판매물품-collapse"
+            >
+              판매물품
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </aside>
 
     <main class="container">
       <div class="bd-example">
@@ -136,203 +183,250 @@
               <div class="col">
                 <div class="card">
                   <div class="row g-0">
-                      <div id="container">
-                         <div class="col-md-4" id="box1">
-                            <svg
-                              class="bd-placeholder-img"
-                              width="100%"
-                              height="250"
-                              xmlns="http://www.w3.org/2000/svg"
-                              role="img"
-                              aria-label="Placeholder: Image"
-                              preserveAspectRatio="xMidYMid slice"
-                              focusable="false"
-                            >
-                              <title>Placeholder</title>
-                              <rect width="100%" height="100%" fill="#868e96" />
-                              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                                Image
-                              </text>
-                            </svg>
-                          </div>
-                          <div class="col-md-8" id="box1">
-                            <div class="card-body">
-                              <h5 class="card-title">박찬미</h5>
-                              <p class="card-text">
-                                학번 담당 이메일 인스타아이디 자기소개 두세줄
-                              </p>
-                            </div>
-                          </div>
-                          <div class="col-md-4" id="box2">
-                            <svg
-                              class="bd-placeholder-img"
-                              width="100%"
-                              height="250"
-                              xmlns="http://www.w3.org/2000/svg"
-                              role="img"
-                              aria-label="Placeholder: Image"
-                              preserveAspectRatio="xMidYMid slice"
-                              focusable="false"
-                            >
-                              <title>Placeholder</title>
-                              <rect width="100%" height="100%" fill="#868e96" />
-                              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                                Image
-                              </text>
-                            </svg>
-                          </div>
-                          <div class="col-md-8" id="box2">
-                            <div class="card-body">
-                              <h5 class="card-title">박찬미</h5>
-                              <p class="card-text">
-                                학번 담당 이메일 인스타아이디 자기소개 두세줄
-                              </p>
-                            </div>
-                          </div>
-                          
+                    <div id="container">
+                      <div class="col-md-4" id="box1">
+                        <svg
+                          class="bd-placeholder-img"
+                          width="100%"
+                          height="250"
+                          xmlns="http://www.w3.org/2000/svg"
+                          role="img"
+                          aria-label="Placeholder: Image"
+                          preserveAspectRatio="xMidYMid slice"
+                          focusable="false"
+                        >
+                          <title>Placeholder</title>
+                          <rect width="100%" height="100%" fill="#868e96" />
+                          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                            Image
+                          </text>
+                        </svg>
                       </div>
-
-                      <div id="container">
-                          <div class="col-md-4" id="box1">
-                            <svg
-                              class="bd-placeholder-img"
-                              width="100%"
-                              height="250"
-                              xmlns="http://www.w3.org/2000/svg"
-                              role="img"
-                              aria-label="Placeholder: Image"
-                              preserveAspectRatio="xMidYMid slice"
-                              focusable="false">
-                             <title>Placeholder</title>
-                             <rect width="100%" height="100%" fill="#868e96" />
-                             <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                               Image
-                             </text>
-                           </svg>
-                          </div>
-                         <div class="col-md-8" id="box1">
-                           <div class="card-body">
-                             <h5 class="card-title">박찬미</h5>
-                             <p class="card-text">
-                               학번 담당 이메일 인스타아이디 자기소개 두세줄
-                             </p>
-                           </div>
-                         </div>
-                         <div class="col-md-4" id="box2">
-                           <svg
-                             class="bd-placeholder-img"
-                             width="100%"
-                             height="250"
-                             xmlns="http://www.w3.org/2000/svg"
-                             role="img"
-                             aria-label="Placeholder: Image"
-                             preserveAspectRatio="xMidYMid slice"
-                             focusable="false"
-                           >
-                             <title>Placeholder</title>
-                             <rect width="100%" height="100%" fill="#868e96" />
-                             <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                               Image
-                             </text>
-                           </svg>
-                         </div>
-                         <div class="col-md-8" id="box2">
-                           <div class="card-body">
-                             <h5 class="card-title">박찬미</h5>
-                             <p class="card-text">
-                               학번 담당 이메일 인스타아이디 자기소개 두세줄
-                             </p>
-                           </div>
-                         </div>
-                         
+                      <div class="col-md-8" id="box1">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>백엔드개발자</b> 박찬미</h5>
+                          <p class="card-text">
+                            학번 : 20604 <br />
+                            이메일 : cksal1052@naver.com<br />
+                            인스타아이디 :
+                            <a href="https://www.instagram.com/chanmi_1125/"
+                              >@chanmi_1125</a
+                            ><br />
+                            자기소개 두세줄
+                          </p>
                         </div>
-                        <div id="container">
-                            <div class="col-md-4" id="box1">
-                               <svg
-                                 class="bd-placeholder-img"
-                                 width="100%"
-                                 height="250"
-                                 xmlns="http://www.w3.org/2000/svg"
-                                 role="img"
-                                 aria-label="Placeholder: Image"
-                                 preserveAspectRatio="xMidYMid slice"
-                                 focusable="false"
-                               >
-                                 <title>Placeholder</title>
-                                 <rect width="100%" height="100%" fill="#868e96" />
-                                 <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                                   Image
-                                 </text>
-                               </svg>
-                             </div>
-                             <div class="col-md-8" id="box1">
-                               <div class="card-body">
-                                 <h5 class="card-title">박찬미</h5>
-                                 <p class="card-text">
-                                   학번 담당 이메일 인스타아이디 자기소개 두세줄
-                                 </p>
-                               </div>
-                             </div>
-                             <div class="col-md-4" id="box2">
-                               <svg
-                                 class="bd-placeholder-img"
-                                 width="100%"
-                                 height="250"
-                                 xmlns="http://www.w3.org/2000/svg"
-                                 role="img"
-                                 aria-label="Placeholder: Image"
-                                 preserveAspectRatio="xMidYMid slice"
-                                 focusable="false"
-                               >
-                                 <title>Placeholder</title>
-                                 <rect width="100%" height="100%" fill="#868e96" />
-                                 <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                                   Image
-                                 </text>
-                               </svg>
-                             </div>
-                             <div class="col-md-8" id="box2">
-                               <div class="card-body">
-                                 <h5 class="card-title">박찬미</h5>
-                                 <p class="card-text">
-                                   학번 담당 이메일 인스타아이디 자기소개 두세줄
-                                 </p>
-                               </div>
-                             </div>
-                             
-                         </div>
-
-                         <div id="container">
-                            <div class="col-md-4" id="box1">
-                               <svg
-                                 class="bd-placeholder-img"
-                                 width="100%"
-                                 height="250"
-                                 xmlns="http://www.w3.org/2000/svg"
-                                 role="img"
-                                 aria-label="Placeholder: Image"
-                                 preserveAspectRatio="xMidYMid slice"
-                                 focusable="false"
-                               >
-                                 <title>Placeholder</title>
-                                 <rect width="100%" height="100%" fill="#868e96" />
-                                 <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                                   Image
-                                 </text>
-                               </svg>
-                             </div>
-                             <div class="col-md-8" id="box1">
-                               <div class="card-body">
-                                 <h5 class="card-title">박찬미</h5>
-                                 <p class="card-text">
-                                   학번 담당 이메일 인스타아이디 자기소개 두세줄
-                                 </p>
-                               </div>
-                             </div>
-                             
-                         </div>
-                   
+                      </div>
+                      <div class="col-md-4" id="box2">
+                        <svg
+                          class="bd-placeholder-img"
+                          width="100%"
+                          height="250"
+                          xmlns="http://www.w3.org/2000/svg"
+                          role="img"
+                          aria-label="Placeholder: Image"
+                          preserveAspectRatio="xMidYMid slice"
+                          focusable="false"
+                        >
+                          <title>Placeholder</title>
+                          <rect width="100%" height="100%" fill="#868e96" />
+                          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                            Image
+                          </text>
+                        </svg>
+                      </div>
+                      <div class="col-md-8" id="box2">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>백엔드개발자</b> 박범찬</h5>
+                          <p class="card-text">
+                            학번 : 20722 <br />
+                            이메일 : pbc2005824@naver.com <br />
+                            인스타아이디 :
+                            <a href="https://www.instagram.com/b_chan_p824/"
+                              >@b_chan_p824</a
+                            ><br />
+                            자기소개 두세줄
+                          </p>
+                        </div>
+                      </div>
                     </div>
+
+                    <div id="container">
+                      <div class="col-md-4" id="box1">
+                        <svg
+                          class="bd-placeholder-img"
+                          width="100%"
+                          height="250"
+                          xmlns="http://www.w3.org/2000/svg"
+                          role="img"
+                          aria-label="Placeholder: Image"
+                          preserveAspectRatio="xMidYMid slice"
+                          focusable="false"
+                        >
+                          <title>Placeholder</title>
+                          <rect width="100%" height="100%" fill="#868e96" />
+                          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                            Image
+                          </text>
+                        </svg>
+                      </div>
+                      <div class="col-md-8" id="box1">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            <b>프론트엔드개발자</b> 정승연
+                          </h5>
+                          <p class="card-text">
+                            학번 : 20314 <br />
+                            이메일 : jseungyeon516@naver.com <br />
+                            인스타아이디 :
+                            <a href="https://www.instagram.com/seungyeonah_/"
+                              >@seungyeonah_</a
+                            >
+                            <br />
+                            자기소개 두세줄
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-4" id="box2">
+                        <svg
+                          class="bd-placeholder-img"
+                          width="100%"
+                          height="250"
+                          xmlns="http://www.w3.org/2000/svg"
+                          role="img"
+                          aria-label="Placeholder: Image"
+                          preserveAspectRatio="xMidYMid slice"
+                          focusable="false"
+                        >
+                          <title>Placeholder</title>
+                          <rect width="100%" height="100%" fill="#868e96" />
+                          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                            Image
+                          </text>
+                        </svg>
+                      </div>
+                      <div class="col-md-8" id="box2">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            <b>프론트엔드개발자</b> 구대운
+                          </h5>
+                          <p class="card-text">
+                            학번 : 20515 <br />
+                            이메일 : eodns7236@gmail.com<br />
+                            인스타아이디 :
+                            <a href="https://www.instagram.com/dae.9un/"
+                              >@dae.9un</a
+                            >
+                            <br />
+                            자기소개 두세줄
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="container">
+                      <div class="col-md-4" id="box1">
+                        <svg
+                          class="bd-placeholder-img"
+                          width="100%"
+                          height="250"
+                          xmlns="http://www.w3.org/2000/svg"
+                          role="img"
+                          aria-label="Placeholder: Image"
+                          preserveAspectRatio="xMidYMid slice"
+                          focusable="false"
+                        >
+                          <title>Placeholder</title>
+                          <rect width="100%" height="100%" fill="#868e96" />
+                          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                            Image
+                          </text>
+                        </svg>
+                      </div>
+                      <div class="col-md-8" id="box1">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>웹퍼블리셔</b> 김수빈</h5>
+                          <p class="card-text">
+                            학번 : 20302 <br />
+                            이메일 : stellar0222@naver.com <br />
+                            인스타아이디 :
+                            <a href="https://www.instagram.com/sb_ds2/"
+                              >@sb_ds2</a
+                            >
+                            <br />
+                            자기소개 두세줄
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-4" id="box2">
+                        <svg
+                          class="bd-placeholder-img"
+                          width="100%"
+                          height="250"
+                          xmlns="http://www.w3.org/2000/svg"
+                          role="img"
+                          aria-label="Placeholder: Image"
+                          preserveAspectRatio="xMidYMid slice"
+                          focusable="false"
+                        >
+                          <title>Placeholder</title>
+                          <rect width="100%" height="100%" fill="#868e96" />
+                          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                            Image
+                          </text>
+                        </svg>
+                      </div>
+                      <div class="col-md-8" id="box2">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>웹퍼블리셔</b>한서현</h5>
+                          <p class="card-text">
+                            학번 : 20316 <br />
+                            이메일 : shhan0114@gmail.com <br />
+                            인스타아이디 :
+                            <a
+                              href="https://www.instagram.com/h_s______________h/"
+                              >@h_s______________h</a
+                            ><br />
+                            자기소개 두세줄
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="container">
+                      <div class="col-md-4" id="box1">
+                        <svg
+                          class="bd-placeholder-img"
+                          width="100%"
+                          height="250"
+                          xmlns="http://www.w3.org/2000/svg"
+                          role="img"
+                          aria-label="Placeholder: Image"
+                          preserveAspectRatio="xMidYMid slice"
+                          focusable="false"
+                        >
+                          <title>Placeholder</title>
+                          <rect width="100%" height="100%" fill="#868e96" />
+                          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                            Image
+                          </text>
+                        </svg>
+                      </div>
+                      <div class="col-md-8" id="box1">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>웹퍼블리셔</b> 윤치웅</h5>
+                          <p class="card-text">
+                            학번 : 203 <br />
+                            이메일 <br />
+                            인스타아이디 :
+                            <a href="https://www.instagram.com/yuncw_05/"
+                              >@yuncw_05</a
+                            >
+                            <br />
+                            자기소개 두세줄
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -340,7 +434,7 @@
         </div>
       </section>
     </main>
-   
+
     <!-- Begin page content -->
 
     <footer class="footer mt-auto py-3 bg-light">
